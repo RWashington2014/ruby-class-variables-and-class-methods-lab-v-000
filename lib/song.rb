@@ -10,6 +10,11 @@ class Song
       @@num_of_songs += 1
     end
 
+    def self.count
+      @@num_of_songs
+
+    end
+
 
 
 
