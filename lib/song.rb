@@ -21,7 +21,7 @@ class Song
 
     def self.artists
       @@artists << @artist unless @@artists.include?(@artist)
-      
+
     end
 
     def self.genres
