@@ -20,11 +20,15 @@ class Song
     end
 
     def self.artists
-
+      if @@artists.any? { |a| a != @artist }
+        @@artists << @artist
+      end
     end
 
     def self.genres
-      @@genres << genre
+      if @@genres.any? { |g| g != @genres }
+        @@genres << @genres
+      end
     end
 
 
