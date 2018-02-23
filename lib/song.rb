@@ -18,9 +18,7 @@ class Song
     end
 
     def self.genres
-
-
-
+      @@genres << genre
     end
 
 
